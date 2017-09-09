@@ -1,5 +1,5 @@
 ---
-subject: Upcoming Boston EA events
+subject: EA Boston; Please confirm subscription
 ---
 
 <wrapper class="header">
@@ -18,13 +18,9 @@ subject: Upcoming Boston EA events
   <spacer size="16"></spacer>
   <row>
     <columns large="12">
-      <p>Thank you for subscribing to recieve updates about the following types of Effective Altruism Boston events:</p>
-      <ul>
-        <li>topic1</li>
-        <li>topic2</li>
-      </ul>
-      <p>Click the following link to <a href="#">confirm your email subscription</a> and, if necessary, update your topic choices. If that link does not work, visit the following URL in your browser: http://127.0.0.1:8000/#</p>
-      <p>If you do not wish to subscribe to EA Boston Events, simply do not click the above link and you will not receive any emails. If you later wish to unsubscribe, click the unsubscribe link at the bottom of any email we send you.</p>
+      <p>To finish subscribing to EA Boston Events, please click the following link: <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/{% url 'confirm' uuid=uuid %}</a></p>
+      <p>If you received this email by mistake, just delete it without clicking the link and you won't be subscribed.</p>
+      <p>If you have any questions, please contact [admin address].</p>
     </columns>
   </row>
 </container>
@@ -35,6 +31,7 @@ subject: Upcoming Boston EA events
   <columns large="4"></columns>
   <columns large="4">
     <center>
+      <p><small>Send snail mail inquiries to:</small></p>
       <p><small>Harvard University Effective Altruism Student Group<br/>
       c/o Musuem of Comparative Zoology<br/>
       26 Oxford St., Room 410<br/>
