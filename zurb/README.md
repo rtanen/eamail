@@ -28,7 +28,6 @@ Notes for putting this into production:
 
 - There are several links to <http://127.0.0.1:8000>. This should be fixed.
 - Currently, the unsubscribe link goes nowhere. We need to have a working one.
-- Currently, we have a fake address of `EA Boston Events<br/>1024 E Main Street<br/>Somerville, MA 01234`. This needs to change.
 
 Notes for editing this:
 
