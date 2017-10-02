@@ -40,7 +40,9 @@ class NewSubscriptionView(FormView):
             message=render_to_string('subscriptions/confirmation_email.txt',
                                      {'uuid': subscriber.token.uuid}),
             from_email='webmaster@localhost',
-            recipient_list=[subscriber.email])
+            recipient_list=[subscriber.email],
+            html_message=render_to_string(
+                'subscriptions/confirmation_email.html', {'uuid': subscriber.token.uuid}))
         messages.success(self.request, 'Thank you for subscribing.')
         return redirect('subscribe')
 
