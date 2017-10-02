@@ -1,5 +1,5 @@
 To finish subscribing to EA Boston Events, please click the following link:
-http://127.0.0.1:8000/{% url 'confirm' uuid=uuid %}
+http://127.0.0.1:8000{% url 'confirm' uuid=uuid %}
 
 If you received this email by mistake, just delete it without clicking the link and you won't be subscribed.
 
@@ -9,6 +9,6 @@ If you have any questions, please contact [admin address].
 Send snail mail inquiries to:
 
 Harvard University Effective Altruism Student Group
-c/o Musuem of Comparative Zoology
+c/o Museum of Comparative Zoology
 26 Oxford St., Room 410
 Cambridge, MA 02138
